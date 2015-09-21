@@ -22,7 +22,8 @@ full_data <- bind_rows(train_data,test_data)
 data_selected <- select(full_data,Subject,Actinum ,matches("mean|std"))
 
 data_labeled <- left_join(data_selected, activities, by = "Actinum")
-data_labeled <- select(data_labeled, Subject, Activity,matches("mean|std") )
+data_labeled <- select(data_labeled, Subject, Activity,matches("mean|std"),
+                       -matches("Freq|angle"))
 
 tidy_data <- data_labeled %>%
                 group_by(Activity, Subject) %>%
