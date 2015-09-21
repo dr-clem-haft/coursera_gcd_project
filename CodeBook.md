@@ -2,7 +2,14 @@
 
 This documents describes the varibles contained in the tidy_data.txt dataset.
 
-###Activity 
+###Activity
+	Describes the type of Activity performed
+		WALKING
+		WALKING_UPSTAIRS
+		WALKING_DOWNSTAIRS
+		SITTING
+		STANDING
+		LAYING
 
 ###Subject
 
