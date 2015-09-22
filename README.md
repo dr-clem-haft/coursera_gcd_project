@@ -66,11 +66,11 @@ This takes care of point 5. in the assignement "5. From the data set in step 4, 
 				
 ## Retrieve the data:
 
-Please download the tidy_data.txt to your R working directory from the Coursera website. Use the following command to read in the data:
+To retrieve the data please click on the tidy_data link or click on preview (on the Coursera website). This should show the data set. Click Ctrl+A to select all the data and Ctrl+C to copy and then paste it (with Ctrl+V) into a text file callded tidy_data.txt to your R working directory. Use the following command to read in the data:
 
 	data <- read.table("tidy_data.txt", header  =TRUE)
 	
-And then the follwing to view the data (works best in RStudio):
+And then the following to view the data (works best in RStudio):
 
 	View(data)
 
